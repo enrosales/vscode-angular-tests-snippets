@@ -1,8 +1,8 @@
 # Snippets Angular Essenciais para TypeScript
 
-![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/{{seu-publisher}}.my-angular-snippets?label=VS%20Code%20Marketplace&color=blue)
-![Downloads](https://img.shields.io/visual-studio-marketplace/dt/{{seu-publisher}}.my-angular-snippets?label=Downloads&color=green)
-![License](https://img1.shields.io/badge/license-MIT-blue)
+![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/enrosales.cp-angular-unit-tests-snippets?label=VS%20Code%20Marketplace&color=blue)
+![Downloads](https://img.shields.io/visual-studio-marketplace/dt/enrosales.cp-angular-unit-tests-snippets?label=Downloads&color=green)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 ---
 
@@ -65,14 +65,38 @@ Diga adeus à repetição e insira instantaneamente blocos de código complexos,
 
 ---
 
+## 📋 Lista de Snippets Disponíveis
+
+| Nº  | Prefixo                     | Descrição                                                        |
+|-----|-----------------------------|------------------------------------------------------------------|
+| 1   | `testComponent`             | Gera um teste básico para um componente Angular                  |
+| 2   | `testService`               | Gera um teste básico para um serviço Angular                     |
+| 3   | `testPipe`                  | Gera um teste básico para um pipe Angular                        |
+| 4   | `testDirective`             | Gera um teste básico para uma diretiva Angular                   |
+| 5   | `testGuard`                 | Gera um teste básico para um guard Angular                       |
+| 6   | `testResolver`              | Gera um teste básico para um resolver Angular                    |
+| 7   | `testModule`                | Gera um teste básico para um módulo Angular                      |
+| 8   | `testInterface`             | Gera um teste básico para uma interface Angular                  |
+| 9   | `testEnum`                  | Gera um teste básico para um enum Angular                        |
+| 10  | `testComponentMockService`  | Teste de componente Angular com serviço mockado                  |
+| 11  | `testServiceMockHttp`       | Teste de serviço Angular com HTTP mockado                        |
+| 12  | `testComponentMockRouter`   | Teste de componente Angular com router mockado                   |
+| 13  | `testReactiveForm`          | Teste para um componente com formulário reativo                  |
+| 14  | `testTemplateDrivenForm`    | Teste para um componente com formulário template-driven          |
+| 15  | `testComponentRouter`       | Teste de componente Angular com Router                           |
+| 16  | `testStructuralDirective`   | Teste para uma diretiva estrutural Angular                       |
+| 17  | `testAttributeDirective`    | Teste para uma diretiva de atributo Angular                      |
+
+Cada snippet inclui placeholders para facilitar a edição rápida de nomes e estruturas.
+
+---
+
 ## 🛠️ Instalação
 
 1.  Abra o Visual Studio Code.
 2.  Vá para a guia Extensões (`Ctrl+Shift+X` ou `Cmd+Shift+X`).
 3.  Pesquise por "**cp-angular-unit-tests-snippets**".
 4.  Clique em **Instalar**.
-
----
 
 ---
 

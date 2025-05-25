@@ -1,16 +1,21 @@
 {
   "name": "cp-angular-unit-tests-snippets",
-  "displayName": "cp-angular-unit-tests-snippets",
-  "description": "Desenvolva com mais agilidade e precisão no Visual Studio Code! Esta extensão oferece um conjunto robusto de snippets TypeScript projetados especificamente para o ecossistema Angular. Deixe a repetição de lado e insira instantaneamente blocos de código complexos, como testes de componentes e diretivas, com apenas algumas teclas. Construa aplicações Angular de alta qualidade de forma mais eficiente e padronizada. Sua produtividade no desenvolvimento começa aqui.",
-  "version": "0.0.1",
+  "displayName": "Angular snippets for unit tests",
+  "description": "Esta extensão oferece um conjunto robusto de snippets TypeScript projetados especificamente para o ecossistema Angular. Como testes de componentes e diretivas, com apenas algumas teclas. Construa aplicações Angular de alta qualidade de forma mais eficiente e padronizada.",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.80.0"
   },
-  "publisher": "cp-angular-unit-tests-snippets",
+  "publisher": "enrosales",
   "author": {
     "name": "Eduardo Noel Rosales Garcia",
     "email": "erosales811@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enrosales/vscode-angular-tests-snippets"
+  },
+  "icon": "images/icon.png",
   "categories": [
     "Snippets"
   ],
@@ -32,7 +37,7 @@
     "karma",
     "jest"
   ],
-  "license": "MIT",
+  "license": "./LICENSE.txt",
   "contributes": {
     "snippets": [
       {
